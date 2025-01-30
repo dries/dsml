@@ -1,0 +1,12 @@
+[package]
+name = "dsml"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+opt-level = 3
+
+[dependencies]
+byteorder = "1.5.0"
+half = "2.4.1"
+ndarray = "0.16.1"
